@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">MyanmarFontExperiment</string>
+    <string name="unicode_string">Failed to submit request, please try again</string>
+    <string name="zawgyi_string">Failed to submit request, please try again</string>
+    <string name="font_bold" translatable="false">fonts/NotoSans-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/NotoSerif-Regular.ttf</string>
+    <string name="font_zawgyi" translatable="false">fonts/Zawgyi-Regular.ttf</string>
+    <string name="font_default" translatable="false">fonts/Spirax-Regular.ttf</string>
+    <string name="application_unicode_font_label" translatable="false">Unicode - Application Font</string>
+    <string name="application_zawgyi_font_label" translatable="false">Zawgyi - Application Font</string>
+    <string name="unicode_font_label" translatable="false">Unicode - System Font</string>
+    <string name="zawgyi_font_label" translatable="false">Zawgyi - System Font</string>
+</resources>
