@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">MyanmarFontExperiment</string>
+    <string name="app_name">MyanmarFontExperiment</string>
     <string name="unicode_string">Failed to submit request, please try again</string>
     <string name="zawgyi_string">Failed to submit request, please try again</string>
     <string name="font_bold" translatable="false">fonts/NotoSans-Bold.ttf</string>
