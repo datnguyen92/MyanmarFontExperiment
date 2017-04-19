@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext((newBase));
+        super.attachBaseContext(LocaleUtils.wrapContext(newBase));
     }
 
     @Override

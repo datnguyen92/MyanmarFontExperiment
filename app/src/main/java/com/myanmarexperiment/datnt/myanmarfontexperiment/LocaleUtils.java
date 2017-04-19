@@ -41,12 +41,6 @@ public class LocaleUtils {
         return new ContextWrapper(context);
     }
 
-    private static boolean isLocaleRequireConversion(@NonNull final Locale locale) {
-        final boolean myanmarCountry = "mm".equals(locale.getCountry()) || "zg".equals(locale.getCountry());
-        final boolean myanmarLanguage = "my".equals(locale.getLanguage()) || "zg".equals(locale.getLanguage());
-        return myanmarCountry || myanmarLanguage;
-    }
-
     @SuppressWarnings("deprecation")
     private static Locale buildCompatLocale(@NonNull final Locale locale, final String language, final String region) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
