@@ -42,8 +42,8 @@ public class LocaleUtils {
     }
 
     private static boolean isLocaleRequireConversion(@NonNull final Locale locale) {
-        final boolean myanmarCountry = "mm".equals(locale.getCountry()) || "zg".equals(locale.getCountry());
-        final boolean myanmarLanguage = "my".equals(locale.getLanguage()) || "zg".equals(locale.getLanguage());
+        final boolean myanmarCountry = "mm".equalsIgnoreCase(locale.getCountry()) || "zg".equalsIgnoreCase(locale.getCountry());
+        final boolean myanmarLanguage = "my".equalsIgnoreCase(locale.getLanguage()) || "zg".equalsIgnoreCase(locale.getLanguage());
         return myanmarCountry || myanmarLanguage;
     }
 
