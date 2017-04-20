@@ -67,12 +67,12 @@
                     android:text="@string/application_zawgyi_font_label"
                     android:textStyle="bold"/>
 
-                <EditText
+                <com.myanmarexperiment.datnt.myanmarfontexperiment.ZGEditText
+                    android:id="@+id/edt_zawgyi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/vertical_padding"
                     android:inputType="none"
-                    android:text="@string/zawgyi_string"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
             </LinearLayout>
@@ -89,11 +89,11 @@
                     android:text="@string/application_unicode_font_label"
                     android:textStyle="bold"/>
 
-                <EditText
+                <com.myanmarexperiment.datnt.myanmarfontexperiment.UNEditText
+                    android:id="@+id/edt_unicode"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="none"
-                    android:text="@string/unicode_string"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
 
